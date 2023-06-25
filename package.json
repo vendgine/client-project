@@ -15,7 +15,7 @@
         "prepare": "husky install",
         "pre-commit": "npm run prettier && npm run lint && npm run build"
     },
-    "author": "Andrei Piontkovskii", 
+    "author": "Andrei Piontkovskii",
     "license": "SEE LICENSE IN LICENSE.txt",
     "devDependencies": {
         "@parcel/transformer-sass": "^2.9.3",
@@ -28,6 +28,7 @@
         "@types/sinon": "^10.0.13",
         "@typescript-eslint/eslint-plugin": "^5.41.0",
         "@typescript-eslint/parser": "^5.41.0",
+        "eslint-plugin-react": "^7.32.2",
         "chai": "^4.3.6",
         "eslint": "^8.26.0",
         "eslint-config-prettier": "^8.5.0",
@@ -43,7 +44,7 @@
         "typescript": "^4.8.4"
     },
     "dependencies": {
-        "@vngn/codestyle": "^0.0.6",
+        "@vngn/codestyle": "^0.0.7",
         "common-tags": "^1.8.2",
         "parcel": "^2.9.3",
         "react": "^18.2.0",
