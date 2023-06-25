@@ -1,0 +1,8 @@
+{
+    "extends": "@vngn/codestyle/tsconfig.base.json",
+    "compilerOptions": {
+        "lib": ["esnext", "DOM"],
+        "outDir": "build"
+    },
+    "include": ["sources/**/*", "tests/**/*"]
+}
