@@ -11,7 +11,7 @@
         "serve": "tsc -noEmit && parcel sources/main.html",
         "prettier": "prettier \"**/*.{yml,yaml,json,md}\" --write",
         "lint": "eslint --fix --max-warnings 0 \"**/*.{mts,ts,tsx}\"",
-        "test": "webpack serve -c webpack.config.test.mjs",
+        "test": "rimraf build && tsc && c8 --include build/ mocha 'build/tests/**/*.test.mjs' && rimraf build",
         "prepare": "husky install",
         "pre-commit": "npm run prettier && npm run lint && npm run build"
     },
@@ -28,6 +28,7 @@
         "@types/sinon": "^10.0.13",
         "@typescript-eslint/eslint-plugin": "^5.41.0",
         "@typescript-eslint/parser": "^5.41.0",
+        "c8": "^7.11.0",
         "chai": "^4.3.6",
         "eslint": "^8.26.0",
         "eslint-config-prettier": "^8.5.0",
