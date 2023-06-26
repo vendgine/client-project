@@ -2,7 +2,7 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 
-import {Application} from "./components/application.js"
+import {ApplicationComponent} from "./components/application.js"
 
 const root = ReactDOM.createRoot(
     document.getElementById("root")!,
@@ -10,6 +10,6 @@ const root = ReactDOM.createRoot(
 
 root.render(
     <React.StrictMode>
-        <Application />
+        <ApplicationComponent />
     </React.StrictMode>,
 )
