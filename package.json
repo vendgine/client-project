@@ -9,7 +9,7 @@
         "build": "rimraf dist && tsc -noEmit && parcel build sources/main.html",
         "build:production": "rimraf dist && tsc -noEmit && parcel build sources/main.html",
         "serve": "tsc -noEmit && parcel sources/main.html",
-        "prettier": "prettier \"**/*.{yml,yaml,json,md}\" --write",
+        "prettier": "prettier \"**/*.{yml,yaml,json,md,scss}\" --write",
         "lint": "eslint --fix --max-warnings 0 \"**/*.{mts,ts,tsx}\"",
         "test": "rimraf build && tsc && c8 --include build/ mocha 'build/tests/**/*.test.mjs' && rimraf build",
         "prepare": "husky install",
@@ -45,7 +45,7 @@
         "typescript": "^5.1.3"
     },
     "dependencies": {
-        "@vngn/codestyle": "^0.0.11",
+        "@vngn/codestyle": "file:../codestyle",
         "common-tags": "^1.8.2",
         "parcel": "^2.9.3",
         "react": "^18.2.0",

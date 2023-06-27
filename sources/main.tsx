@@ -1,4 +1,3 @@
-/* eslint-disable import/no-internal-modules */
 import React from "react"
 import ReactDOM from "react-dom/client"
 

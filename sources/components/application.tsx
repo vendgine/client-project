@@ -1,5 +1,10 @@
+import "../assets/scss/index.scss"
+import "../assets/scss/components/application.scss"
+
 import type {ReactElement} from "react"
 import React, {Component} from "react"
+
+import logo from "../assets/images/logo.svg"
 
 /**
  * An example of a component.
@@ -7,7 +12,22 @@ import React, {Component} from "react"
 export class ApplicationComponent extends Component {
     render(): ReactElement {
         return (
-            <div></div>
+            <div className="App">
+                <header className="App-header">
+                    <img src={logo.toString()} className="App-logo" alt="logo" />
+                    <p>
+                        Edit <code>sources/components/application.tsx</code> and save to reload.
+                    </p>
+                    <a
+                        className="App-link"
+                        href="https://reactjs.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                      Learn how to React
+                    </a>
+                </header>
+            </div>
         )
     }
 }

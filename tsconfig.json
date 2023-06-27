@@ -4,5 +4,5 @@
         "lib": ["esnext", "DOM"],
         "outDir": "build"
     },
-    "include": ["sources/**/*", "tests/**/*"]
+    "include": ["sources/**/*", "tests/**/*", "custom.d.ts"]
 }
