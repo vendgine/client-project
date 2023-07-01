@@ -1,6 +1,6 @@
 {
     "name": "@vngn/client-starter",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Vendgine Client Starter package",
     "type": "module",
     "target": "web",
