@@ -2,6 +2,12 @@
     "name": "@vngn/client-starter",
     "version": "0.0.2",
     "description": "Vendgine Client Starter package",
+    "keywords": [
+        "vngn",
+        "react",
+        "client",
+        "starter"
+    ],
     "type": "module",
     "target": "web",
     "scripts": {
