@@ -15,7 +15,7 @@
         "prepare": "husky install",
         "pre-commit": "npm run prettier && npm run lint && npm run build && npm run test"
     },
-    "author": "Andrei Piontkovskii",
+    "author": "Andrei Piontkovskii <andrei@p10i.ru>",
     "license": "SEE LICENSE IN LICENSE.txt",
     "devDependencies": {
         "@vngn/codestyle": "^0.0.14",

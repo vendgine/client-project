@@ -1,1 +1,8 @@
 .github
+
+# Ignore directories
+node_modules/
+dist/
+coverage/
+.parcel-cache/
+.husky/
