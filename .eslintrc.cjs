@@ -5,4 +5,9 @@ module.exports = {
         "tsconfigRootDir": __dirname,
         "project": "./tsconfig.json",
     },
+    "settings": {
+        "react": {
+            "version": "18",
+        }
+    }
 }
