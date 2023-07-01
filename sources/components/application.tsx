@@ -1,16 +1,15 @@
 import "../assets/scss/index.scss"
 import "../assets/scss/components/application.scss"
 
-import type {ReactElement} from "react"
-import React, {Component} from "react"
+import * as React from "react"
 
 import logo from "../assets/images/logo.svg"
 
 /**
  * An example of a component.
  */
-export class ApplicationComponent extends Component {
-    render(): ReactElement {
+export class ApplicationComponent extends React.Component {
+    render(): React.ReactElement {
         return (
             <div className="App">
                 <header className="App-header">
