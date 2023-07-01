@@ -1,0 +1,9 @@
+{
+    "testEnvironment": "jsdom",
+    "moduleNameMapper": {
+        ".scss$": "<rootDir>/tests/stub.js",
+        ".svg$": "<rootDir>/tests/stub.js",
+        "^(\\.{1,2}/.*)\\.[jt]sx?$": "$1"
+    },
+    "setupFilesAfterEnv": ["<rootDir>/tests/jest-setup.ts"]
+}
