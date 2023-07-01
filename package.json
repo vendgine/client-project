@@ -1,6 +1,6 @@
 {
     "name": "@vngn/client-starter",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Vendgine Client Starter package",
     "keywords": [
         "vngn",
@@ -24,7 +24,7 @@
     "author": "Andrei Piontkovskii <andrei@p10i.ru>",
     "license": "SEE LICENSE IN LICENSE.txt",
     "devDependencies": {
-        "@vngn/codestyle": "^0.0.14",
+        "@vngn/codestyle": "^0.0.15",
         "@babel/core": "^7.22.5",
         "@babel/preset-env": "^7.22.5",
         "@babel/preset-react": "^7.22.5",
